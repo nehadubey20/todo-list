@@ -1,17 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./nd.png";
+import "./App.css";
 
-function App(){
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo"/>
-      <h1>Hyy this is Neha Dubey's First React application</h1>
-      </header>
+class App extends React.Component{
+  render(){
+    
+     return( 
+     <div>
+       <img src={logo} width="100" height="100" className="logo"/>
+      <h1 className="app-title">TO-DO App</h1>
+      <div className="container">
+        ADD AN ITEM 
+        <br/>
+        <input 
+        type="text" 
+        className="input-text" 
+        placeholder="Write a TODO">
+        </input>
+        <button className="add-btn">
+        ADD List
+       </button>
+       <div className="list">
+       <ul >
+          <li>
+            <input type="checkbox"/>
+            Read React Documentation
+            <button className="btn">DELETE</button>
+          </li>
+
+       </ul>
+       
+       </div>
+
+      </div>
+      
     </div>
-  )
 
+      )
+  }
 }
+
+
 
 export default App;
