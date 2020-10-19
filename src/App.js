@@ -29,7 +29,7 @@ class App extends React.Component{
       });
     }
   }
-
+  //delete Item
   deleteItem(id){
     const list = [...this.state.list];
     const updatedList =  list.filter(item => item.id !== id);
