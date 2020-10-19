@@ -9,7 +9,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
-    "homepage": "http://nehadubey20.github.io/todo-list"
+    "homepage": "https://nehadubey20.github.io/todo-list"
   },
   "scripts": {
     "start": "react-scripts start",
