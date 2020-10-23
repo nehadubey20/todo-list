@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./nd.png";
 import "./App.css";
 
+//constructor
 class App extends React.Component{
 
   constructor(props){
@@ -12,6 +13,8 @@ class App extends React.Component{
     }
   }
 
+
+  //addition of todo
   addItem(todoValue){
     if(todoValue !== ""){
       const newItem={
