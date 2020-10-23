@@ -46,6 +46,8 @@ class App extends React.Component{
       newItem : input
     })
   }
+
+
   render(){  
      return( 
      <div>
@@ -69,6 +71,7 @@ class App extends React.Component{
         >
         ADD List
        </button>
+
        <div className="list">
        <ul >
          {this.state.list.map(item => {
@@ -90,7 +93,7 @@ class App extends React.Component{
          })}
           <li>
             <input type="checkbox"/>
-            Read React Documentation
+            Add Your Task!
             <button className="btn">DELETE</button>
           </li>
 
